@@ -24,7 +24,7 @@ while($d=mysql_fetch_array($det)){
 			</tr>
 			<tr>
 				<td>Suplier</td>
-				<td><input type="text" class="form-control" required="" name="suplier" value="<?php echo $d['suplier'] ?>"></td>
+				<td><input type="text" class="form-control"  name="suplier" value="<?php echo $d['suplier'] ?>"></td>
 			</tr>
 			<tr>
 				<td>Modal</td>
